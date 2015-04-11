@@ -1,5 +1,5 @@
-# ProteinTrackerJavaFit
+# protein_tracker_java
 
-Java Fit code from PluralSight course "Creating Acceptance Tests with FitNesse"
+Java code from PluralSight course "Creating Acceptance Tests with FitNesse"
 
-An implementation of the demo code for this class using Java to implement Fit fixtures.
+An implementation of the demo code for this class using Java.
