@@ -1,0 +1,5 @@
+!| Greeting |
+| Name | Greeting? |
+| FitNesse using Fit | Hello, FitNesse using Fit, World! |
+
+!contents -R2 -g -p -f -h
