@@ -3,8 +3,7 @@ I must define the test to use the Slim test runner.
 
 I must define the paths used by FitNesse.
 !path fitness-standalone.jar
-!path c:\cygwin64\home\ljones\professional\projects\protein_tracker_java\out\production\protein_tracker_java\com\cjl_magistri\protein_tracker
-!path c:\cygwin64\home\ljones\professional\projects\protein_tracker_java\out\production\protein_tracker_java\com\cjl_magistri\protein_tracker\slim
+!path c:\cygwin64\home\ljones\professional\projects\protein_tracker_java\out\production\protein_tracker_java
 
 I add an import table to simplify tables.
 |import                               |

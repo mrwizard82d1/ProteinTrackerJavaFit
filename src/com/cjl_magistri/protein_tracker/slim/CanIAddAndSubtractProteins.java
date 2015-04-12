@@ -14,6 +14,11 @@ import com.cjl_magistri.protein_tracker.tests.TrackingServiceSUT;
  * columns, the Slim client will attempt to invoke the methods `setAmount`
  * and `setOperation`, respectively, with the values of the corresponding
  * table columns.
+ *
+ * I **do not** need to implement an `enterAmount` method as I did with a
+ * FIT column fixture. Instead, by convention, the Slim test runner will
+ * execute a method named `execute` **before** it tries to check any
+ * column values.
  */
 public class CanIAddAndSubtractProteins {
     private TrackingService sut = TrackingServiceSUT.INSTANCE.sut();
@@ -27,5 +32,17 @@ public class CanIAddAndSubtractProteins {
 
     public void setOperation(String operation) {
         this.operation = operation;
+    }
+
+    public void execute() {
+        if (operation.equals("add")) {
+            sut.addProtein(amount);
+        } else if (operation.equals("subtract")) {
+            sut.removeProtein(amount);
+        }
+    }
+
+    public int totalIs() {
+        return sut.getTotal();
     }
 }
