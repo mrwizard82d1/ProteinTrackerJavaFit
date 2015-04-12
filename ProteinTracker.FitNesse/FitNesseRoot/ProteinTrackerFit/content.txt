@@ -5,8 +5,6 @@
 
 !define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
 
-The last row of this test contains an '''intentional''' error.
-
 !| com.cjl_magistri.protein_tracker.fit.TrackingServiceColumnFixture|
 |amount        |operation        |enterAmount?        |total?       |
 |5             |add              |add                 |5            |
@@ -16,6 +14,14 @@ The last row of this test contains an '''intentional''' error.
 |5             |add              |add                 |5            |
 
 ----
+Reset the fixture to prepare for the next test.
+
+!| com.cjl_magistri.protein_tracker.fit.TrackingServiceSetupFixture |
+| reset |
+| true |
+
+----
+Remember that the last row of this test '''still''' contains an error.
 
 !| com.cjl_magistri.protein_tracker.fit.TrackingServiceDoFixture|
 |set goal          |100                                         |
