@@ -1,5 +1,6 @@
 package com.cjl_magistri.protein_tracker.fit;
 
+import com.cjl_magistri.protein_tracker.tests.TrackingServiceSUT;
 import fitlibrary.SetUpFixture;
 
 /**
