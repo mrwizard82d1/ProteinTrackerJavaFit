@@ -13,6 +13,7 @@ The last row of this test contains an '''intentional''' error.
 |10            |add              |add                 |15           |
 |3             |subtract         |subtract            |12           |
 |20            |subtract         |subtract            |0            |
+|5             |add              |add                 |5            |
 
 ----
 
