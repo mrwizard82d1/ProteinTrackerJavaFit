@@ -1,5 +1,10 @@
-!| Greeting |
-| Name | Greeting? |
-| FitNesse using Fit | Hello, FitNesse using Fit, World! |
+!path fitness-standalone.jar
+!path c:\cygwin64\home\ljones\professional\projects\protein_tracker_java\out\production\protein_tracker_java
+
+!| com.cjl_magistri.protein_tracker.fit.TrackingServiceColumnFixture|
+|amount        |operation        |enterAmount?        |total?       |
+|5             |add              |add                 |5           |
+
+----
 
 !contents -R2 -g -p -f -h

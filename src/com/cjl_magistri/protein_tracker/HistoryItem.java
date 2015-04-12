@@ -9,10 +9,10 @@ public class HistoryItem {
     private final String _operation;
     private final int _total;
 
-    public HistoryItem(int historyId, int amount, String operation, int total) {
+    public HistoryItem(int historyId, int amount, String operator, int total) {
         _historyId = historyId;
         _amount = amount;
-        _operation = operation;
+        _operation = operator;
         _total = total;
     }
 }
