@@ -1,5 +1,9 @@
 !path fitness-standalone.jar
+!path ../lib/fitlibrary-2.0.jar
+!path ../lib/log4j-1.2.16.jar
 !path c:\cygwin64\home\ljones\professional\projects\protein_tracker_java\out\production\protein_tracker_java
+
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
 
 The last row of this test contains an '''intentional''' error.
 
@@ -12,5 +16,14 @@ The last row of this test contains an '''intentional''' error.
 |1             |add              |add                 |0            |
 
 ----
+
+!| com.cjl_magistri.protein_tracker.fit.TrackingServiceDoFixture|
+|set goal          |100                                         |
+|add               |5          |times with          |10         |
+|total is          |50                                          |
+|add               |1          |times with          |50         |
+|total is          |100                                         |
+|goal is met                                                    |
+|total is          |150                                         |
 
 !contents -R2 -g -p -f -h
