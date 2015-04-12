@@ -1,4 +1,4 @@
-package com.cjl_magistri.protein_tracker.fit;
+package com.cjl_magistri.protein_tracker.com.cjl_magistri.protein_tracker.tests;
 
 import com.cjl_magistri.protein_tracker.TrackingService;
 
