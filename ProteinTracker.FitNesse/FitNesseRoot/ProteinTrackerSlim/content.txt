@@ -1,4 +1,13 @@
 I must define the test to use the Slim test runner.
 !define TEST_SYSTEM {slim}
 
+I must define the paths to use FitNesse.
+!path fitness-standalone.jar
+!path c:\cygwin64\home\ljones\professional\projects\protein_tracker_java\out\production\protein_tracker_java\com\cjl_magistri\protein_tracker
+!path c:\cygwin64\home\ljones\professional\projects\protein_tracker_java\out\production\protein_tracker_java\com\cjl_magistri\protein_tracker\slim
+
+I add an import table to simplify tables.
+|import                               |
+|com.clj_magistri.protein_tracker.slim|
+
 !contents -R2 -g -p -f -h
