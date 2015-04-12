@@ -1,0 +1,34 @@
+I must define the test to use the Slim test runner.
+!define TEST_SYSTEM {slim}
+
+I must define the paths used by FitNesse.
+!path fitness-standalone.jar
+!path c:\cygwin64\home\ljones\professional\projects\protein_tracker_java\out\production\protein_tracker_java
+
+I add an import table to simplify tables.
+|import                               |
+|com.cjl_magistri.protein_tracker.slim|
+
+----
+
+By default, all tables, otherwise not specified, are decision tables.
+
+Note the '''human readable''' table title and columns.
+
+As a programmer, I translate this title into a class named !style_code[CanIAddAndSubtractProteins]. 
+In addition, for Slim fixtures, I '''do not''' need the !style_code[enterAmount?] column that I needed
+for the !style_code[ColumnFixture] test. Finally, the '?' character indicates a method that FitNesse 
+will check by calling the method !style_code[totalIs].
+
+For a Slim fixture, I '''do not''' need public fields. When the fixture encounters a column header
+named 'amount,' it will call a method named !style_code[setAmount] on the fixture.
+
+|Can I add and subtract proteins|
+|amount  |operation  |total is? |
+|5       |add        |5         |
+|10      |add        |15        |
+|3       |subtract   |12        |
+|20      |subtract   |0         |
+|1       |add        |0         |
+
+!contents -R2 -g -p -f -h
