@@ -26,6 +26,8 @@ named 'amount,' it will call a method named !style_code[setAmount] on the fixtur
 |Can I add and subtract proteins|
 |amount  |operation  |total is? |
 |5       |add        |5         |
-
+|10      |add        |15        |
+|3       |subtract   |12        |
+|20      |subtract   |0         |
 
 !contents -R2 -g -p -f -h
