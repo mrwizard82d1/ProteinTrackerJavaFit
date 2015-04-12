@@ -29,5 +29,6 @@ named 'amount,' it will call a method named !style_code[setAmount] on the fixtur
 |10      |add        |15        |
 |3       |subtract   |12        |
 |20      |subtract   |0         |
+|1       |add        |0         |
 
 !contents -R2 -g -p -f -h
