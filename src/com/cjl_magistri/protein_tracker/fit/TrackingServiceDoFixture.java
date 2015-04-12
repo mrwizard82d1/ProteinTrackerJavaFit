@@ -1,7 +1,7 @@
 package com.cjl_magistri.protein_tracker.fit;
 
 import com.cjl_magistri.protein_tracker.TrackingService;
-import com.cjl_magistri.protein_tracker.com.cjl_magistri.protein_tracker.tests.TrackingServiceSUT;
+import com.cjl_magistri.protein_tracker.tests.TrackingServiceSUT;
 import fitlibrary.DoFixture;
 
 /**
