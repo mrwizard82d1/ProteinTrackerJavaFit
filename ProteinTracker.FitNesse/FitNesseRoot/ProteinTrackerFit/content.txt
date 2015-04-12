@@ -1,9 +1,15 @@
 !path fitness-standalone.jar
 !path c:\cygwin64\home\ljones\professional\projects\protein_tracker_java\out\production\protein_tracker_java
 
+The last row of this test contains an '''intentional''' error.
+
 !| com.cjl_magistri.protein_tracker.fit.TrackingServiceColumnFixture|
 |amount        |operation        |enterAmount?        |total?       |
-|5             |add              |add                 |5           |
+|5             |add              |add                 |5            |
+|10            |add              |add                 |15           |
+|3             |subtract         |subtract            |12           |
+|20            |subtract         |subtract            |0            |
+|1             |add              |add                 |0            |
 
 ----
 
