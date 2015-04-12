@@ -1,0 +1,4 @@
+I must define the test to use the Slim test runner.
+!define TEST_SYSTEM {slim}
+
+!contents -R2 -g -p -f -h
